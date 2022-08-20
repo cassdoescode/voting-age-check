@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This checks your eligibility to vote based on your age">
+    	<meta name="keywords" content="voting, age checker, election">
+
+		<title>Voting Age Checker</title>
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<h1>Can you vote?</h1>
+		<label for="age">Put your age here to find out!</label>
+		<input type="number" id="age" name="age" min="1" max="123">
+		<button type="button" id="button">Click here</button>
+
+		<section id="ofAge">
+			<h2>Congratulations, you can vote!</h2>
+			<img src="img/mileyintheusa.gif" alt="Miley Cyrus from the 'Party in the USA' video">
+			<h3>Find more info on how to vote <a href="https://vote.org">here!</a></h3>
+		</section>
+		<section id="underAge">
+			<h2>You can't vote yet, sorry.</h2>
+			<img src="img/arielsad.gif" alt="Ariel from 'The Little Mermaid' sad">
+			<h3>But you can pledge to do so when you turn 18 by clicking <a href="https://www.vote.org/pledge-to-register/">here!</a></h3>
+		</section>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

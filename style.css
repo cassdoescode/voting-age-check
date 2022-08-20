@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  background-color: skyblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,h2,h3 {
+  color: black;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+@media all and (max-width:1000px) {
+  body {
+    width:fit-content;
+    height:fit-content;
+  }
+
+  img {
+    display:none;
+  }
+}
